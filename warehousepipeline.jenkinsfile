@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/gtemilv/warehouse.git'
+                git branch: 'main', url: 'https://github.com/gtemiliv/warehouse.git'
             }
         }
 
